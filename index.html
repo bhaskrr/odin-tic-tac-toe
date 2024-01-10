@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Tic Tac Toe</h1>
+        </header>
+        <main>
+            <dialog>
+                <button type="button" class="restart-btn">Restart</button>
+            </dialog>
+            <div class="choice">
+                <h2>Make a choice:</h2>
+                <div class="choice-btns">
+                <button type="button" choice="X">X</button>
+                <button type="button" choice="O">O</button>
+            </div>
+            </div>
+            
+            <p class="current-player"></p>
+            <div class="board-grid">
+                <button type="button" position="0"></button>
+                <button type="button" position="1"></button>
+                <button type="button" position="2"></button>
+                <button type="button" position="3"></button>
+                <button type="button" position="4"></button>
+                <button type="button" position="5"></button>
+                <button type="button" position="6"></button>
+                <button type="button" position="7"></button>
+                <button type="button" position="8"></button>
+            </div>
+            <p class="output"></p>
+        </main>
+    </div>
     <script src="./game.js"></script>
 </body>
 </html>
